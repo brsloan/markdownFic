@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MarkdownFic Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="flexbox">
+      <div id="text-displays-container">
+        <div>
+          <input type="button" id="upload-mdfc-btn" value="Upload MarkdownFic">
+          <input type="button" id="download-mdfc-btn" value="Download MarkdownFic">
+          <input type="button" id="download-md-btn" value="Download Markdown">
+          <input type="button" id="download-page-btn" value="Download Html">
+          <h1 class="display-label">MarkdownFic</h1>
+          <textarea id="original-display"></textarea>
+        </div>
+        
+        <div id="md-display">
+          <h1 class="display-label">Markdown Conversion</h1>
+          <textarea id="md-text" readonly></textarea>
+        </div>
+      </div>
+      <div id="html-display-container">
+        <h1 class="display-label">HTML Conversion</h1>
+        <div id="html-display"></div>
+      </div>
+      
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="mdf-to-html.js"></script>
+    <script src="mdf-to-md.js"></script>
+    <script src="master.js"></script>
+  </body>
+</html>
