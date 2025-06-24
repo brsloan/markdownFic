@@ -1,5 +1,5 @@
 # markdownFic
-MarkdownFic is a variation of markdown which allows the use of tabs for use in writing fiction. I originally developed it for use in [WareWoolf](https://github.com/brsloan/warewoolf), but it could be handy for anyone writing fiction in plain text, so I've decided to put it out independently as well. 
+MarkdownFic is a variation of markdown which allows the use of tabs for use in writing fiction. I originally developed it for use in [WareWoolf](https://github.com/brsloan/warewoolf), but it could be handy for anyone writing fiction in plain text, so I've decided to put it out independently as well. You can use the online converter [here](https://brsloan.github.io/markdownFic/) or read below for how it works.
 
 Unlike Markdown, MarkdownFic allows you to use regular indented paragraphs without space between them. It will keep your manual tabs and your white space. You are freed from writing fiction like it's a blog!
 
